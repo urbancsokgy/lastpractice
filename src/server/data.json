@@ -1,0 +1,623 @@
+{
+  "SuperPower": [
+    "article",
+    "biking",
+    "singing",
+    "magnetic",
+    "electric"
+  ],
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Alfa Ödön",
+      "address": "Kecskemét",
+      "superpower": "Martes americana"
+    },
+    {
+      "id": 2,
+      "name": "Skip Mulvaney",
+      "address": "Lidköping",
+      "superpower": "Petaurus breviceps"
+    },
+    {
+      "id": 4,
+      "name": "Maxi Luna",
+      "address": "Bukal",
+      "superpower": "krokodil"
+    },
+    {
+      "id": 6,
+      "name": "Zarla Maseyk",
+      "address": "Guanghai",
+      "superpower": "Anas bahamensis"
+    },
+    {
+      "id": 7,
+      "name": "Merline Mityakov",
+      "address": "Baini",
+      "superpower": "Merops bullockoides"
+    },
+    {
+      "id": 8,
+      "name": "Siouxie Nilles",
+      "address": "Dongmazar",
+      "superpower": "Ciconia episcopus"
+    },
+    {
+      "id": 9,
+      "name": "Elianore Podmore",
+      "address": "Bardīyah",
+      "superpower": "Anas punctata"
+    },
+    {
+      "id": 10,
+      "name": "Janifer Galbreath",
+      "address": "Kasreman Wetan",
+      "superpower": "Tauraco porphyrelophus"
+    },
+    {
+      "id": 11,
+      "name": "Neale Davidof",
+      "address": "Az Zarqā",
+      "superpower": "Perameles nasuta"
+    },
+    {
+      "id": 12,
+      "name": "Estel Bruckenthal",
+      "address": "Al Wardānīn",
+      "superpower": "Lybius torquatus"
+    },
+    {
+      "id": 13,
+      "name": "Pavia Korting",
+      "address": "Briceni",
+      "superpower": "Felis chaus"
+    },
+    {
+      "id": 14,
+      "name": "Shanon Swanton",
+      "address": "Kačanik",
+      "superpower": "Trachyphonus vaillantii"
+    },
+    {
+      "id": 15,
+      "name": "Cliff Pinnion",
+      "address": "Chadong",
+      "superpower": "Dasyurus maculatus"
+    },
+    {
+      "id": 16,
+      "name": "Chancey Athelstan",
+      "address": "Iraray",
+      "superpower": "Spheniscus mendiculus"
+    },
+    {
+      "id": 17,
+      "name": "Nissie Sopper",
+      "address": "Rueil-Malmaison",
+      "superpower": "Leptoptilus dubius"
+    },
+    {
+      "id": 18,
+      "name": "Kris Stait",
+      "address": "Tarata",
+      "superpower": "Ramphastos tucanus"
+    },
+    {
+      "id": 19,
+      "name": "Ermengarde Ewbanck",
+      "address": "Mounlapamôk",
+      "superpower": "Panthera pardus"
+    },
+    {
+      "id": 20,
+      "name": "Willy Muslim",
+      "address": "Nong Yai",
+      "superpower": "Creagrus furcatus"
+    },
+    {
+      "id": 21,
+      "name": "Sallyanne Kofax",
+      "address": "Sukhobezvodnoye",
+      "superpower": "Anhinga rufa"
+    },
+    {
+      "id": 22,
+      "name": "Megen Sapauton",
+      "address": "Agualote",
+      "superpower": "Felis chaus"
+    },
+    {
+      "id": 23,
+      "name": "Kizzie Waggatt",
+      "address": "Giv'on HaHadasha",
+      "superpower": "Acanthaster planci"
+    },
+    {
+      "id": 24,
+      "name": "Aila Kleinhandler",
+      "address": "Askersund",
+      "superpower": "Echimys chrysurus"
+    },
+    {
+      "id": 25,
+      "name": "Kennith Seatter",
+      "address": "Selizharovo",
+      "superpower": "Phacochoerus aethiopus"
+    },
+    {
+      "id": 26,
+      "name": "Rockey Fellibrand",
+      "address": "Şūr",
+      "superpower": "Macaca mulatta"
+    },
+    {
+      "id": 27,
+      "name": "Kim Nerney",
+      "address": "Zhongzuiling",
+      "superpower": "Ursus maritimus"
+    },
+    {
+      "id": 28,
+      "name": "Georgeanne Bambra",
+      "address": "Khlong Luang",
+      "superpower": "Panthera leo persica"
+    },
+    {
+      "id": 29,
+      "name": "Noell Chard",
+      "address": "København",
+      "superpower": "Phoenicopterus chilensis"
+    },
+    {
+      "id": 30,
+      "name": "Wat Masterson",
+      "address": "Sanzao",
+      "superpower": "Castor fiber"
+    },
+    {
+      "id": 31,
+      "name": "Bourke Farden",
+      "address": "Lyozna",
+      "superpower": "Lemur catta"
+    },
+    {
+      "id": 32,
+      "name": "Cara Monks",
+      "address": "Memphis",
+      "superpower": "Motacilla aguimp"
+    },
+    {
+      "id": 33,
+      "name": "Rosamund Bonn",
+      "address": "Belogorskīy",
+      "superpower": "Ara chloroptera"
+    },
+    {
+      "id": 34,
+      "name": "Sullivan Evenett",
+      "address": "Umeå",
+      "superpower": "Ursus americanus"
+    },
+    {
+      "id": 35,
+      "name": "Eran Call",
+      "address": "Abaeté",
+      "superpower": "Spermophilus tridecemlineatus"
+    },
+    {
+      "id": 36,
+      "name": "Patricio McAulay",
+      "address": "Okazaki",
+      "superpower": "Varanus albigularis"
+    },
+    {
+      "id": 37,
+      "name": "Doti Splain",
+      "address": "Batibati",
+      "superpower": "Anathana ellioti"
+    },
+    {
+      "id": 38,
+      "name": "Hubert Gogarty",
+      "address": "Masiga",
+      "superpower": "Didelphis virginiana"
+    },
+    {
+      "id": 39,
+      "name": "Marna Stronough",
+      "address": "Glinojeck",
+      "superpower": "Herpestes javanicus"
+    },
+    {
+      "id": 40,
+      "name": "Bobbie Burras",
+      "address": "Pandan Niog",
+      "superpower": "Crotalus cerastes"
+    },
+    {
+      "id": 41,
+      "name": "Jermaine Faragher",
+      "address": "Banjar Dharmasemedi",
+      "superpower": "Spizaetus coronatus"
+    },
+    {
+      "id": 42,
+      "name": "Hayes Castelow",
+      "address": "Kota Kinabalu",
+      "superpower": "Ara chloroptera"
+    },
+    {
+      "id": 43,
+      "name": "Eleen Talmadge",
+      "address": "Fajã de Cima",
+      "superpower": "Lama pacos"
+    },
+    {
+      "id": 44,
+      "name": "Ilaire Rowsel",
+      "address": "'s-Hertogenbosch",
+      "superpower": "Eubalaena australis"
+    },
+    {
+      "id": 45,
+      "name": "Tris Boshell",
+      "address": "Tingzhou",
+      "superpower": "Phalaropus fulicarius"
+    },
+    {
+      "id": 46,
+      "name": "Kathie Flecknell",
+      "address": "Karangnongko",
+      "superpower": "Dicrurus adsimilis"
+    },
+    {
+      "id": 47,
+      "name": "Imogene Borell",
+      "address": "Zanjān",
+      "superpower": "Tachyglossus aculeatus"
+    },
+    {
+      "id": 48,
+      "name": "Georgette Kitchenman",
+      "address": "Cotaparaco",
+      "superpower": "Isoodon obesulus"
+    },
+    {
+      "id": 49,
+      "name": "Fidelity Dwire",
+      "address": "Beiguoyuan",
+      "superpower": "Trachyphonus vaillantii"
+    },
+    {
+      "id": 50,
+      "name": "Bord Ugoni",
+      "address": "Paris 10",
+      "superpower": "Ratufa indica"
+    },
+    {
+      "id": 51,
+      "name": "Kippy Brook",
+      "address": "Zykovo",
+      "superpower": "Ardea cinerea"
+    },
+    {
+      "id": 52,
+      "name": "Kleon Moresby",
+      "address": "Caba",
+      "superpower": "Chionis alba"
+    },
+    {
+      "id": 53,
+      "name": "Louise Baddeley",
+      "address": "Gatesville",
+      "superpower": "Amphibolurus barbatus"
+    },
+    {
+      "id": 54,
+      "name": "Hewitt Yardley",
+      "address": "Wenchang",
+      "superpower": "Erinaceus frontalis"
+    },
+    {
+      "id": 55,
+      "name": "Ros Kitchenman",
+      "address": "Starobelokurikha",
+      "superpower": "Dusicyon thous"
+    },
+    {
+      "id": 56,
+      "name": "Dion Padley",
+      "address": "Jinta",
+      "superpower": "Heloderma horridum"
+    },
+    {
+      "id": 57,
+      "name": "Cinderella Crickmore",
+      "address": "Airmolek",
+      "superpower": "Pitangus sulphuratus"
+    },
+    {
+      "id": 58,
+      "name": "Vernen Stockport",
+      "address": "Rodionovo-Nesvetayskaya",
+      "superpower": "Cereopsis novaehollandiae"
+    },
+    {
+      "id": 59,
+      "name": "Julianna Twaite",
+      "address": "Kalengwa",
+      "superpower": "Plegadis falcinellus"
+    },
+    {
+      "id": 60,
+      "name": "Alberto Soppit",
+      "address": "Changxing",
+      "superpower": "Potamochoerus porcus"
+    },
+    {
+      "id": 61,
+      "name": "Debera Caghy",
+      "address": "Al Ghizlānīyah",
+      "superpower": "Gymnorhina tibicen"
+    },
+    {
+      "id": 62,
+      "name": "Gan Molden",
+      "address": "Ccatca",
+      "superpower": "Tiliqua scincoides"
+    },
+    {
+      "id": 63,
+      "name": "Phil Paoli",
+      "address": "Marne-la-Vallée",
+      "superpower": "Chloephaga melanoptera"
+    },
+    {
+      "id": 64,
+      "name": "Winonah Perton",
+      "address": "Praia da Tocha",
+      "superpower": "Anthropoides paradisea"
+    },
+    {
+      "id": 65,
+      "name": "Leo Leander",
+      "address": "Várzea",
+      "superpower": "Larus fuliginosus"
+    },
+    {
+      "id": 66,
+      "name": "Artemas Brixey",
+      "address": "Boshi",
+      "superpower": "Stercorarius longicausus"
+    },
+    {
+      "id": 67,
+      "name": "Amandi Scanes",
+      "address": "Norrköping",
+      "superpower": "Ramphastos tucanus"
+    },
+    {
+      "id": 68,
+      "name": "Avrit Bendin",
+      "address": "Bojong",
+      "superpower": "Corvus brachyrhynchos"
+    },
+    {
+      "id": 69,
+      "name": "Vivia Sterrie",
+      "address": "Igboho",
+      "superpower": "Hystrix cristata"
+    },
+    {
+      "id": 70,
+      "name": "Salomone Shobrook",
+      "address": "Gromadka",
+      "superpower": "Zenaida galapagoensis"
+    },
+    {
+      "id": 71,
+      "name": "Addison Petras",
+      "address": "Zhatay",
+      "superpower": "Alouatta seniculus"
+    },
+    {
+      "id": 72,
+      "name": "Debby Petkens",
+      "address": "Aimorés",
+      "superpower": "Ardea cinerea"
+    },
+    {
+      "id": 73,
+      "name": "Helenka Toor",
+      "address": "Jönköping",
+      "superpower": "Petaurus breviceps"
+    },
+    {
+      "id": 74,
+      "name": "Burl Bladesmith",
+      "address": "Oujiangcha",
+      "superpower": "Nycticorax nycticorax"
+    },
+    {
+      "id": 76,
+      "name": "Byrann Todaro",
+      "address": "Dąbie",
+      "superpower": "Dicrostonyx groenlandicus"
+    },
+    {
+      "id": 77,
+      "name": "Angelle McGavigan",
+      "address": "Trà Ôn",
+      "superpower": "Theropithecus gelada"
+    },
+    {
+      "id": 78,
+      "name": "Maighdiln Minogue",
+      "address": "Bagou",
+      "superpower": "Oryx gazella"
+    },
+    {
+      "id": 79,
+      "name": "Aloise Strainge",
+      "address": "San Isidro",
+      "superpower": "Felis concolor"
+    },
+    {
+      "id": 80,
+      "name": "Paten Gowthrop",
+      "address": "San Antonio de los Cobres",
+      "superpower": "Trachyphonus vaillantii"
+    },
+    {
+      "id": 81,
+      "name": "Bradford MacCaull",
+      "address": "Nianpan",
+      "superpower": "Phasianus colchicus"
+    },
+    {
+      "id": 82,
+      "name": "Pip Petrov",
+      "address": "Mataigou",
+      "superpower": "Ploceus intermedius"
+    },
+    {
+      "id": 83,
+      "name": "Daisy Sibthorpe",
+      "address": "La Soledad",
+      "superpower": "Ictalurus furcatus"
+    },
+    {
+      "id": 84,
+      "name": "Noami Brandenberg",
+      "address": "Zhouzai",
+      "superpower": "Milvago chimachima"
+    },
+    {
+      "id": 85,
+      "name": "Poul Andrichak",
+      "address": "Baliang",
+      "superpower": "Priodontes maximus"
+    },
+    {
+      "id": 86,
+      "name": "Jedidiah Gyse",
+      "address": "Säffle",
+      "superpower": "Papio cynocephalus"
+    },
+    {
+      "id": 87,
+      "name": "Freedman Ivantyev",
+      "address": "Majzar",
+      "superpower": "Pteronura brasiliensis"
+    },
+    {
+      "id": 88,
+      "name": "Glen Leser",
+      "address": "Ponta da Garça",
+      "superpower": "Sylvicapra grimma"
+    },
+    {
+      "id": 89,
+      "name": "Jacobo Blinco",
+      "address": "Libog",
+      "superpower": "Dendrocitta vagabunda"
+    },
+    {
+      "id": 90,
+      "name": "Sloane Rolfini",
+      "address": "Tembayangan Barat",
+      "superpower": "Pavo cristatus"
+    },
+    {
+      "id": 91,
+      "name": "Danny Kubin",
+      "address": "Mramani",
+      "superpower": "Anas bahamensis"
+    },
+    {
+      "id": 92,
+      "name": "Gabbie Heineking",
+      "address": "Boynton Beach",
+      "superpower": "Calyptorhynchus magnificus"
+    },
+    {
+      "id": 93,
+      "name": "Micki Wilkerson",
+      "address": "Awat",
+      "superpower": "Dendrocitta vagabunda"
+    },
+    {
+      "id": 95,
+      "name": "Jon Schettini",
+      "address": "Sungai Raya",
+      "superpower": "Tockus flavirostris"
+    },
+    {
+      "id": 96,
+      "name": "Giffie Prose",
+      "address": "Pulo",
+      "superpower": "Tauraco porphyrelophus"
+    },
+    {
+      "id": 97,
+      "name": "Cayla Bradford",
+      "address": "Kinna",
+      "superpower": "Trachyphonus vaillantii"
+    },
+    {
+      "id": 98,
+      "name": "Evanne Tipling",
+      "address": "Marinha",
+      "superpower": "Ammospermophilus nelsoni"
+    },
+    {
+      "id": 99,
+      "name": "Abbey Odussey",
+      "address": "Budapest",
+      "superpower": "Limosa haemastica"
+    },
+    {
+      "id": 100,
+      "name": "Chrystal Cranch",
+      "address": "Onguday",
+      "superpower": "Herpestes javanicus"
+    },
+    {
+      "name": "Alligator mississippiensis",
+      "address": "SaintTite",
+      "superpower": "TI DSPs",
+      "id": 101
+    },
+    {
+      "name": "Alligator mississippiensis",
+      "address": "SaintTite",
+      "superpower": "Oil  Gas Services",
+      "id": 102
+    },
+    {
+      "name": "Alba Regia",
+      "address": "Székesfehérvár",
+      "superpower": "Ragacs",
+      "id": 103
+    },
+    {
+      "name": "Papagena",
+      "address": "Italy",
+      "superpower": "singing",
+      "id": 104
+    },
+    {
+      "name": "Alligator mississippiensis",
+      "address": "Saint-Tite",
+      "superpower": "article",
+      "id": 105
+    },
+    {
+      "name": "Almera Nissan",
+      "address": "China",
+      "superpower": "article",
+      "id": 106
+    }
+  ]
+}

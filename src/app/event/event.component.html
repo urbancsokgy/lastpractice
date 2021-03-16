@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6 offset-3">
+      <form #myForm=ngForm (ngSubmit)=onSubmit(myForm) class="">
+        <!-- input -->
+        <div class="form-group mb-3" >
+          <label for="name" class="form-label">Name</label>
+          <input #heroName [(ngModel)]="newHero.name" type="text" name="name"
+          required pattern="^[A-Z][A-Za-z\s]+$" class="form-control" id="name" placeholder="name">
+        </div>
+        <!-- input -->
+        <div class="form-group mb-3" >
+          <label for="address" class="form-label">Address</label>
+          <input #heroaddress [(ngModel)]="newHero.address" type="text" name="address"
+          required pattern="^[A-Z][A-Za-z\s]+$" class="form-control" id="address" placeholder="address">
+        </div>
+        <!-- Select -->
+        <div class="form-group" *ngIf="powerArray">
+          <label for="superpower" class="form-label">Super Power</label>
+          <select  #superpower  ngModel required name="superpower" class="form-select form-control" title="Select" aria-label="Default select example">
+            <option value="" disabled>Only a Hero</option>
+            <option   *ngFor="let power of powerArray |async" selected  [ngValue]="power"
+            >{{power}}</option>
+          </select>
+        </div>
+        <!-- button -->
+        <div class="form-group">
+         <button class="btn button-outline btn-danger">
+           New SuperHero
+         </button>
+        </div>
+        {{myForm.value |json}}
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col-8 offset-2">
+      <form (ngSubmit)="onsubmit()" [formGroup]="reactFormGroup">
+        <h2>Add new Hero</h2>
+        <!-- input -->
+          <div class="form-group">
+            <label for="name">Name</label>
+              <input type="text" id="name" class="form-control" formControlName="name">
+              <span [hidden]="reactFormGroup.controls.name.status=='VALID' && !reactFormGroup.controls.name.pristine ">
+                <!-- {{reactFormGroup.controls.name.status}}
+                {{reactFormGroup.controls.name.pristine}} -->
+              Add Hero name min 5 char
+              </span>
+            </div>
+        <!-- input -->
+          <div class="form-group">
+            <label for="address">Address</label>
+              <input type="text" id="address" class="form-control" formControlName="address">
+            </div>
+            <span [hidden]="reactFormGroup.controls.name.status=='VALID' && !reactFormGroup.controls.name.pristine ">
+              <!-- {{reactFormGroup.controls.name.status}}
+              {{reactFormGroup.controls.name.pristine}} -->
+            Add Hero address min 8 char
+            </span>
+        <!-- input -->
+          <div class="form-group">
+            <label for="superpower">Superpower</label>
+              <select id="superpower" class="form-control" formControlName="superpower">
+                <option *ngFor="let pow of powers" [value]="pow">{{pow}}</option>
+              </select>
+              <span [hidden]="reactFormGroup.controls.name.status=='VALID' && !reactFormGroup.controls.name.pristine ">
+                <!-- {{reactFormGroup.controls.name.status}}
+                {{reactFormGroup.controls.name.pristine}} -->
+              Hero power is required
+              </span>
+            </div>
+            <button [disabled]="reactFormGroup.status=='INVALID'"type="submit" class="btn btn-success form-control ">Add New Hero</button>
+            {{reactFormGroup.value |json}}
+            {{reactFormGroup.status}}
+      </form>
+    </div>
+  </div>
+</div>

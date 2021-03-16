@@ -1,0 +1,88 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+
+          <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-warning">
+                  <h4 [hidden]="currentHero.id==0" class="card-title"><i class="fa fa-cog fa-spin"></i> hero Editor</h4>
+                  <h4 [hidden]="currentHero.id>0" class="card-title"><i class="fa fa-cog fa-spin"></i> New hero</h4>
+
+                  <p class="card-hero">hero Profile</p>
+                </div>
+                <div class="card-body">
+                  <form #heroForm="ngForm" (ngSubmit)=" onFormSubmit(heroForm)">
+                    <div class="form-group">
+                      <div class="row">
+                        <!-- Hero name -->
+                        <div class="col-md-5 mb-4">
+
+                          <label  for="name">Name</label>
+                          <input name="name" class="form-control ng-pristine ng-invalid ng-touched"
+                          type="text" id="name" #heroName="ngModel" placeholder="hero name"
+                          [(ngModel)]="currentHero.name">
+
+                          <small [hidden]="catName.valid || catName.pristine" class="">
+                            Please add a hero name beginning with an uppercase letter!
+                          </small>
+
+                        </div>
+                        <!-- Hero address -->
+                        <div class="col-md-5 mb-4">
+
+                          <label  for="name">Address</label>
+                          <input  name="address" type="text" id="name" #catName="ngModel"
+                          [(ngModel)]="currentHero.address" placeholder="hero address"
+                          pattern="" required=""
+                          class="form-control ng-pristine ng-invalid ng-touched"
+                          >
+                          <!-- {{HeroName.value}} -->
+                          <small [hidden]="catName.valid || catName.pristine" class="">
+                            Please add a hero address beginning with an uppercase letter!
+                          </small>
+
+                        </div>
+                        <!-- Hero superpower -->
+                        <div class="col-md-5 mb-4">
+
+                          <label  class=" bmd-label-floating" for="superpower">superpower</label>
+                          <input  name="superpower" type="text" id="superpower" #CatDesc="ngModel"
+                          [(ngModel)]="currentHero.superpower" placeholder="hero superpower"
+                          pattern="" required="" class="form-control ng-pristine ng-invalid ng-touched"
+                          >
+                          <!-- {{CatDesc.value}} -->
+                          <small [hidden]="CatDesc.valid || CatDesc.pristine" class="">
+                            Please add a supepower beginning with an uppercase letter!
+                          </small>
+                        </div>
+                        <!-- Gombok -->
+                        <div class="col-md-4" [class]="currentHero.id==0 ? 'valami' : 'nemvalami'">
+                          <label for="update" class="ize">Gomb </label>
+                          <button name="update" type="submit" [disabled]="!heroForm.valid"
+                          [class]="!heroForm.valid ? 'btn-danger' : 'btn-success'"
+                          [hidden]="currentHero.id==0"
+                          class="btn  pull-right">hero update
+                          </button></div>
+
+                          <div class="col-md-4" >
+                          <button type="submit" [disabled]="!heroForm.valid"
+                          [hidden]="currentHero.id>0"
+                          [class]="!heroForm.valid ? 'btn-danger' : 'btn-success'"
+                          class="btn  pull-right">New hero
+                          </button></div>
+                      </div>
+                    </div>
+
+                   <!-- {{heroForm.valid}} -->
+
+                  </form>
+                  <button (click)="backToHero()" type="button"
+                  class="btn btn-info back"><i class="fa fa-caret-left fa-2x"></i></button>
+
+
+                </div>
+              </div>
+            </div>
+      </div>
+  </div>
+</div>

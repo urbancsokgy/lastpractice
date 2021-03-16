@@ -1,0 +1,28 @@
+body{
+  box-sizing: border-box;
+}
+.title{
+  background-color: rgb(133, 253, 213);
+}
+.row{
+  display: grid;
+  grid-template-columns: 1fr 4fr 3fr 4fr;
+  // grid-gap: 1em;
+}
+.row div{
+  margin: .2em;
+  padding: .2em;
+  border: 1px solid;
+}
+.row:nth-child(even){
+  background-color: rgb(129, 215, 218);
+}
+@media  screen and (max-width: 800px) {
+.row{
+  grid-template-columns: 1fr 2fr;
+}
+}
+.load, .fa-spinner{
+  color: Dodgerblue;
+  margin-top: 30%;
+}

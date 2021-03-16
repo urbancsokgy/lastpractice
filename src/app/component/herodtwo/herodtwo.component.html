@@ -1,0 +1,14 @@
+<div class="container">
+  <div [hidden]="arrayLength!=0" class="text-center load m-5"><i  class="fa fa-spinner fa-spin fa-5x"></i></div>
+
+  <div [hidden]="arrayLength==0" class="row title">
+    <div class=""  *ngFor="let attr of heroAttribute |keyvalue:orig "
+     >{{attr.value}}</div>
+  </div>
+  <div class="row" *ngFor="let hero of currentHeroArray">
+
+    <div class="" *ngFor="let attr of heroAttribute | keyvalue:orig">
+      {{hero[attr.key]}}
+    </div>
+  </div>
+</div>

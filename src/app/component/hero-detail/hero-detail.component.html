@@ -1,0 +1,71 @@
+<div class="container mt-5">
+
+  <div class="input-group mb-3">
+    <!-- [(ngModel)]="phrase" -->
+    <input type="text"
+    #search  (keyup.enter)="phrase=search.value" (blur)="phrase=search.value"
+    (focus)="search.value='';phrase=''"
+    class="form-control"
+     placeholder="search" aria-label="search"
+    >
+    <div class="input-group-append">
+      <span class="input-group-text btn-success" id="basic-addon2"><i class="fa fa-search"></i></span>
+    </div>
+  </div>
+<div class="row">
+
+    <table class="table table-striped">
+      <thead class="thead-dark">
+        <tr >
+          <th #sortValue class=""  *ngFor="let heroAttr of heroAttributes" (click)="sort(heroAttr)"
+          >{{heroAttr}}
+          <i *ngIf="sortDirection=='asc' && lastParam==heroAttr"
+          class="fa fa-sort-down"></i>
+          <i *ngIf="sortDirection=='desc' && lastParam==heroAttr"
+          class="fa fa-sort-up"></i>
+        </th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let hero of localHeroArray | search: phrase">
+          <td class="">{{hero.id}}</td>
+          <td class="">{{hero.name}}</td>
+          <td class="">{{hero.address}}</td>
+          <td class="">{{hero.superpower}}</td>
+          <!-- Gombok -->
+          <td>
+            <div class="btn-group">
+                <div class="btn btn-success play "
+                (click)="speak(hero.name+'  '+hero.address+'   '+hero.superpower)" >
+                <i class="fa  fa-play-circle"></i></div>
+                <button [routerLink]="['/editor/',hero.id]"
+
+                    class="btn btn-info">
+                    <i class="fa fa-pencil"></i>
+                </button>
+                <button class="btn btn-danger"
+                data-target="#confirmationDialog" data-toggle="modal"
+                    (click)="setheroDelete(hero)">
+                    <i class="fa fa-trash"></i>
+                </button>
+            </div>
+        </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- {{attributes |json}} -->
+
+  <!-- <div class="listOfHero" appHighlight *ngFor="let hero of localHeroArray index as i; first as isFirst; even as even">
+    {{i+1}}/{{localHeroArray.length}}. <span *ngIf="even">páratlan</span><span *ngIf="!even">páros</span>
+    {{hero |json}}
+    <ul  *appDelay="1500">
+      <li >{{hero.id}}</li>
+      <li >{{hero.address}}</li>
+      <li >{{hero.superpower}}</li>
+      <li >{{hero.name}}</li>
+    </ul>
+  </div> -->
+</div>
